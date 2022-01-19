@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100vw;
+  height: 90vh;
+  opacity: 0.9;
+}
+
+/* Time*/
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-day-content {
+  position: absolute;
+  z-index: 99999;
+  display: flex;
+
+  font-size: 44px;
+  font-family: "Mochiy Pop P One", sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.d-day-content .show-time {
+  color: green;
+}
+.flow-time {
+  color: yellow;
+}
+
+.time {
+  padding: 4px;
+  width: 220px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.time:nth-child(1) {
+  padding-right: 24px;
+}
+.time:nth-child(2) {
+  padding-right: 24px;
+}
